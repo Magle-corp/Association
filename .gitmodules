@@ -1,0 +1,6 @@
+[submodule "Association-strapi"]
+	path = Association-strapi
+	url = git@github.com:Magle-corp/Association-strapi.git
+[submodule "Association-next"]
+	path = Association-next
+	url = git@github.com:Magle-corp/Association-next.git
