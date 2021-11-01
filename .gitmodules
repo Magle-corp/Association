@@ -1,12 +1,6 @@
-[submodule "Starter-Next"]
-	path = Starter-Next
-	url = git@github.com:Magle-corp/Starter-Next.git
-[submodule "Starter-Strapi"]
-	path = Starter-Strapi
-	url = git@github.com:Magle-corp/Starter-Strapi.git
-[submodule "Association-Strapi"]
-	path = Association-Strapi
-	url = git@github.com:Magle-corp/Association-Strapi.git
-[submodule "Association-Next"]
-	path = Association-Next
-	url = git@github.com:Magle-corp/Association-Next.git
+[submodule "Association-strapi"]
+	path = Association-strapi
+	url = git@github.com:Magle-corp/Association-strapi.git
+[submodule "Association-next"]
+	path = Association-next
+	url = git@github.com:Magle-corp/Association-next.git
