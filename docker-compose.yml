@@ -46,14 +46,15 @@ services:
     environment:
       API_BASEURL: backend:1337
 
-  e2e:
+  cypress:
     image: cypress
-    build: ./e2e
+    build: ./test
     depends_on:
       - frontend
     environment:
       - CYPRESS_baseUrl=http://frontend:3000
     command: npx cypress run
     volumes:
-      - ./e2e/cypress:/app/cypress
-      - ./e2e/cypress.json:/app/cypress.json
+      - ./test/cypress:/app/cypress
+      - ./test/cypress.json:/app/cypress.json
+      - ./Association-next:/Association-next

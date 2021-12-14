@@ -1,5 +1,5 @@
-describe("My First Test", () => {
-  it("Does not do much!", () => {
+describe("Front test", () => {
+  it("Test URL", () => {
     cy.request("/");
     cy.request("/publications");
     cy.request("/publications/articles");
