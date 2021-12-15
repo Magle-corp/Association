@@ -26,6 +26,8 @@ services:
       MYSQL_DATABASE: ${DATABASE_NAME}
       MYSQL_ROOT_PASSWORD: ${DATABASE_PASSWORD}
     command: --default-authentication-plugin=mysql_native_password
+    cap_add:
+      - SYS_NICE
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
