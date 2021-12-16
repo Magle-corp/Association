@@ -9,3 +9,6 @@ public/uploads/*
 
 # env.
 .env
+
+# Node.js
+node_modules
