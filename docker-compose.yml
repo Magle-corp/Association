@@ -47,16 +47,3 @@ services:
       - "3000:3000"
     environment:
       API_BASEURL: backend:1337
-
-  cypress:
-    image: cypress
-    build: ./test
-    depends_on:
-      - frontend
-    environment:
-      - CYPRESS_baseUrl=http://frontend:3000
-    command: npx cypress run
-    volumes:
-      - ./test/cypress:/app/cypress
-      - ./test/cypress.json:/app/cypress.json
-      - ./Association-next:/Association-next
