@@ -2,8 +2,9 @@
 
 Association par Magle-corp.
 
-- [Instance staging front](http://association-next-staging.magle.fr)
-- [Instance staging back](http://association-strapi-staging.magle.fr)
+- [Instance staging Next.js](http://association-next-staging.magle.fr)
+- [Instance staging Strapi](http://association-strapi-staging.magle.fr)
+- [Couverture test des méthodes custom utilisées coté front](http://association-tests-staging.magle.fr)
 
 🔤 TypeScript  🚀 Next.js  🎩 Strapi.js  🏗 MySQL  📋 PhpMyAdmin  🐋 Docker 🧪 Jest
 
@@ -11,17 +12,15 @@ ___
 
 ## A propos
 
-Projet construit à l'aide du [Starter Kit](https://github.com/Magle-corp/Starter-Kit)
-
-Intègre le design system [Starter-UI](https://github.com/Magle-corp/Starter-UI) 🎉 [consulter le book](http://storybook-staging.magle.fr)
+Projet construit à l'aide du [Starter Kit](https://github.com/Magle-corp/Starter-Kit) Next.js + Strapi
 
 ## Requis
 
 Assurez-vous que les ports suivants sont disponibles :
-- 3000
-- 1337
-- 3306
-- 8081
+- 3000 Next.js
+- 1337 Strapi
+- 3306 MySQL
+- 8081 PhpMyAdmin
 
 ## Installer le projet
 
@@ -29,7 +28,7 @@ Assurez-vous que les ports suivants sont disponibles :
 git clone git@github.com:Magle-corp/Association.git
 cd Association
 git submodule init && git submodule update
-cp .env.example
+cp .env.example .env
 docker-compose up
 ```
 
@@ -41,4 +40,4 @@ docker-compose up
 
 ## Tests
 
-[Couverture des méthodes custom utilisées coté front](http://association-tests-staging.magle.fr)
+[Couverture test des méthodes custom utilisées coté front](http://association-tests-staging.magle.fr)
