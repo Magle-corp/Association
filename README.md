@@ -4,7 +4,7 @@ Association par Magle-corp.
 
 - [Instance staging Next.js](http://association-next-staging.magle.fr)
 - [Instance staging Strapi](http://association-strapi-staging.magle.fr)
-- [Couverture test des méthodes custom utilisées coté front](http://association-tests-staging.magle.fr)
+- [Couverture test des méthodes custom utilisées coté front](http://association-next-tests-staging.magle.fr)
 
 🔤 TypeScript  🚀 Next.js  🎩 Strapi.js  🏗 MySQL  📋 PhpMyAdmin  🐋 Docker 🧪 Jest
 
