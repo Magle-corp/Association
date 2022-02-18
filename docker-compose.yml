@@ -32,12 +32,20 @@ services:
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     ports:
-      - '8081:80'
+      - "8081:80"
     links:
       - db
     environment:
       PMA_HOST: db
       PMA_PORT: 3306
+
+  mailhog:
+    image: mailhog/mailhog:latest
+    logging:
+      driver: 'none'
+    ports:
+      - "1025:1025"
+      - "8001:8025"
 
   frontend:
     build: ./${APP_NAME_FRONT}
